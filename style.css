@@ -50,7 +50,7 @@ p {
 }
 
 .header-image {
-    background-image: url("https://github.com/6unli/UT_Kaart/blob/master/img/j%C3%B5ulud2020-portrait.jpg");
+    background-image: url("https://6unli.github.io/UT_Kaart/img/jõulud2020-portrait.jpg");
     width: 100%;
     height: 110vh;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ p {
     height: 100%;
     z-index: -1;
     opacity: 0.05;
-    background-image: url("./img/bg.png");
+    background-image: url("https://6unli.github.io/UT_Kaart/img/bg.png");
     background-repeat: no-repeat;
     background-position: 50% 88%;
     background-size: cover;
