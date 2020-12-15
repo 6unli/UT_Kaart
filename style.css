@@ -60,6 +60,11 @@ p {
     position: relative;   
 }
 
+.lottievideo {
+    width: 100%; 
+    height: auto;
+}
+
 .header-text {
     display: table-cell;
     vertical-align: top;
