@@ -49,14 +49,14 @@ p {
 }
 
 video {
+    min-width: 100%;
+    min-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
-    min-height: 100%;
-    min-width: 100%;
     transform: translate(-50%, -50%);
     z-index: -1;
-  }
+}
 
 .header-text {
     height: auto;
@@ -118,10 +118,10 @@ video {
 }
 
 @keyframes animation1 {
-    0%   {opacity:0; transform:translateX(80px);}
-    3.57%  {opacity:1; transform: translateX(0px) ;}
-    25%  {opacity:1; transform: translateX(0px) ;}
-    28.57% {opacity:0; transform: translateX(-80px);}
+    0%   {opacity:0;}
+    4%  {opacity:1;}
+    24%  {opacity:1;}
+    28.57% {opacity:0; }
 }
 
 @keyframes animation2 {
@@ -136,7 +136,7 @@ video {
     opacity: 0;
     animation-name: animation1;
     animation-duration: 14s;
-    animation-delay: -0.5s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
 }
 
@@ -144,7 +144,7 @@ video {
     opacity: 0;
     animation-name: animation1;
     animation-duration: 14s;
-    animation-delay: 3s;
+    animation-delay: 3.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
 }
@@ -153,7 +153,7 @@ video {
     opacity: 0;
     animation-name: animation1;
     animation-duration: 14s;
-    animation-delay: 6.5s;
+    animation-delay: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
 }
@@ -162,16 +162,7 @@ video {
     opacity: 0;
     animation-name: animation1;
     animation-duration: 14s;
-    animation-delay: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-}
-
-.an5 {
-    opacity: 0;
-    animation-name: animation1;
-    animation-duration: 13.2s;
-    animation-delay: 12.9s;
+    animation-delay: 10.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
 }
@@ -191,5 +182,15 @@ video {
         position: relative;
     }
 
+
+}
+
+@media only screen and (max-width: 800px) {
+    video {
+        min-width: 10%;
+        min-height: 10%;
+        height: 100%;
+        width: auto;
+    }
 
 }
