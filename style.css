@@ -185,12 +185,13 @@ video {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
     video {
-        min-width: 10%;
+        min-width: 100%;
         min-height: 10%;
         height: 100%;
         width: auto;
+        transform: translate(-47%, -50%);
     }
 
 }
