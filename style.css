@@ -49,12 +49,12 @@ p {
 }
 
 video {
-    min-width: 100%;
+    min-width: 106%;
     min-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-47%, -50%);
     z-index: -1;
 }
 
@@ -187,7 +187,6 @@ video {
 
 @media only screen and (max-width: 960px) {
     video {
-        min-width: 100%;
         min-height: 10%;
         height: 100%;
         width: auto;
